@@ -176,7 +176,6 @@ def player_stats(player_name)
     team_info[:players].each do |player_stats|
       if player_stats[:player_name] == player_name
         return player_stats
-        end
       end
     end
   end
