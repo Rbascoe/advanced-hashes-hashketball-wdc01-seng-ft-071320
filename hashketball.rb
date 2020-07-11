@@ -186,14 +186,14 @@ def big_shoe_rebounds
 shoe_size = 0 
 rebounds = 0 
   game_hash.each do |key, value|
-    value[:players].each do |player|
-      if player[:shoe] > 0 # then in this if statement we will want to check if player[:shoe] is greater than the shoe_size variable
-        rebounds = player[:rebounds] && shoe_size = player[:shoe]
+    value[:players].each do |player_stats|
+      if player_stats[:shoe] > 0 
+        rebounds = player_stats[:rebounds] && shoe_size = player_stats[:shoe]
      # if it is we will want to set rebounds equal to player[:rebounds] and shoe_size equal to player[:shoe]
       end
     end
   end
   #then after the loops finish, down here we will return the rebounds variable
-  player[:rebounds]
+  return player_stats[:rebounds]
 end
 
