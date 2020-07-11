@@ -177,6 +177,7 @@ def player_stats(player_name)
       if team_info[:player_name] == player_name
         return team_info[:players].map do |player_stats|
           player_stats[:players]
+        end
       end
     end
   end
