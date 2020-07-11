@@ -192,8 +192,7 @@ rebounds = 0
         rebounds = player_stats[:rebounds] 
       end
     end
-  end
-  #then after the loops finish, down here we will return the rebounds variable
+  end 
   return player_stats[:rebounds]
 end
 
