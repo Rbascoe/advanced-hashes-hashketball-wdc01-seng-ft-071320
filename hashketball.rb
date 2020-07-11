@@ -187,7 +187,7 @@ shoe_size = 0
 rebounds = 0 
   game_hash.each do |team_location, team_info|
     team_info[:players].each do |player_stats|
-      if player_stats[:shoe].max > 0 
+      if player_stats[:shoe] > 0 
         rebounds = player_stats[:rebounds] 
         shoe_size = player_stats[:shoe]
      # if it is we will want to set rebounds equal to player[:rebounds] and shoe_size equal to player[:shoe]
