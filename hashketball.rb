@@ -190,7 +190,6 @@ rebounds = 0
       if player_stats[:shoe] > shoe_size
         rebounds = player_stats[:rebounds] 
         shoe_size = player_stats[:shoe]
-     # if it is we will want to set rebounds equal to player[:rebounds] and shoe_size equal to player[:shoe]
       end
     end
   end
