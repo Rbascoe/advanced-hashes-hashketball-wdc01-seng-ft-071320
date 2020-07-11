@@ -188,8 +188,8 @@ rebounds = 0
   game_hash.each do |team_location, team_info|
     team_info[:players].each do |player_stats|
       if player_stats[:shoe] > shoe_size
-        rebounds = player_stats[:rebounds] 
         shoe_size = player_stats[:shoe]
+        rebounds = player_stats[:rebounds] 
       end
     end
   end
