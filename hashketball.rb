@@ -185,7 +185,6 @@ end
 def big_shoe_rebounds
 shoe_size = 0 
 rebounds = 0 
-  #up here we want to set two variables (shoe_size and rebounds) both equaling 0 to start
   game_hash.each do |key, value|
     value[:players].each do |player|
       if player[:shoe] > 0 # then in this if statement we will want to check if player[:shoe] is greater than the shoe_size variable
