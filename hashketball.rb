@@ -193,6 +193,6 @@ rebounds = 0
       end
     end
   end 
-  return player_stats[:rebounds]
+ player_stats[:rebounds]
 end
 
